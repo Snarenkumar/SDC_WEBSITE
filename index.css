@@ -1,6 +1,4 @@
-* {
-  /* background-color: black; */
-}
+
 .navbar {
   height: 70px;
   width: 1500px;
@@ -22,7 +20,6 @@
   position: relative;
   bottom: 11px;
 }
-
 
 .dropdown {
   display: flex;
@@ -51,6 +48,9 @@
 .dropdown li {
   float: left;
   margin-right: 50px;
+  font-size: 19px;
+  font-weight: 590;
+  
 }
 
 .search {
@@ -60,16 +60,13 @@
 }
 /*! important part */
 .dark_mode {
-    background-color:black;
-    color: antiquewhite
-     ;
+  background-color: black;
+  color: antiquewhite;
 }
-#noramal_mode {
-    background-color: green;
-    color: black;
-}
-
-
+.dark_mode a{
+    
+    color: antiquewhite;
+  }
 
 .login {
   position: relative;
@@ -85,7 +82,7 @@
   cursor: pointer;
   display: inline-flex;
   min-width: 8rem;
-  background-color: #2d3093;
+  background-color: #9249bb;
   color: white;
   font-weight: 900;
   font-size: 15px;
