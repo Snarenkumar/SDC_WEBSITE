@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 1000px;
+  width: 858px;
 }
 
 .dropdown a {
@@ -59,22 +59,7 @@
   top: 8px;
 }
 
-input[type="text"] {
-  width: 252px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 24px;
-  font-size: 16px;
-  background-color: white;
-  background-image: url("./actual_images/search.png");
-  background-position: 14px 7px;
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 68px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-  position: fixed;
-  font-weight: 592;
-}
+
 
 .login {
   position: relative;
@@ -102,7 +87,7 @@ input[type="text"] {
 }
 
 .nightmode {
-  background-image: url(./actual_images/moo_nobg.png);
+  background-image: url(./moo_nobg.png);
   image-resolution: initial;
   background-size: cover;
   height: 50px;
@@ -110,6 +95,6 @@ input[type="text"] {
   background-color: transparent;
   border: 0px;
   position: relative;
-  right: 40px;
+  right: 89px;
   top: 4px;
 }
