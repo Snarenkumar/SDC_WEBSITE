@@ -44,6 +44,15 @@
 
   list-style-type: none;
 }
+.dropdown li:hover {
+    color: #9249bb;
+    float: left;
+    margin-right: 50px;
+    font-size: 19px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif;
+    
+  }
 
 .dropdown li {
   float: left;
@@ -95,14 +104,15 @@
   white-space: nowrap;
 }
 .button_toggle {
-    background-color: aliceblue;
+  color: aliceblue;
+   
     position: relative;
   right: 89px;
   top: 4px;
   height: 50px;
 }
 #noramal_mode {
-  background-image: url(.//2moon_nobg.png);
+  background-image: url(./moon2..png);
   image-resolution: initial;
   background-size: cover;
   height: 50px;
