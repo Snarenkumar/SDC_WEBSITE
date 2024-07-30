@@ -58,6 +58,16 @@
   right: 354px;
   top: 8px;
 }
+/*! important part */
+.dark_mode {
+    background-color:black;
+    color: antiquewhite
+     ;
+}
+#noramal_mode {
+    background-color: green;
+    color: black;
+}
 
 
 
@@ -86,7 +96,7 @@
   white-space: nowrap;
 }
 
-.nightmode {
+#noramal_mode {
   background-image: url(./moo_nobg.png);
   image-resolution: initial;
   background-size: cover;
