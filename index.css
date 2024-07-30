@@ -1,4 +1,3 @@
-
 .navbar {
   height: 70px;
   width: 1500px;
@@ -45,22 +44,22 @@
   list-style-type: none;
 }
 .dropdown li:hover {
-    color: #9249bb;
-    float: left;
-    margin-right: 50px;
-    font-size: 19px;
-    font-weight: 300;
-    font-family:Arial, Helvetica, sans-serif;
-    
-  }
-
-.dropdown li {
+  color: #9249bb;
   float: left;
   margin-right: 50px;
   font-size: 19px;
   font-weight: 300;
-  font-family:Arial, Helvetica, sans-serif;
-  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown li {
+    animation: navani 0.3s ease forwards;
+  animation-delay: calc(0.15s * var(--navAni));
+  float: left;
+  margin-right: 50px;
+  font-size: 19px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .search {
@@ -73,11 +72,9 @@
   background-color: black;
   color: antiquewhite;
 }
-.dark_mode a{
-    
-    color: antiquewhite;
-  }
-  
+.dark_mode a {
+  color: antiquewhite;
+}
 
 .login {
   position: relative;
@@ -105,8 +102,8 @@
 }
 .button_toggle {
   color: aliceblue;
-   
-    position: relative;
+
+  position: relative;
   right: 89px;
   top: 4px;
   height: 50px;
@@ -119,7 +116,6 @@
   width: 50px;
   background-color: transparent;
   border: 0px;
-  
 }
 html,
 body {
@@ -127,8 +123,59 @@ body {
   overflow-x: hidden;
 }
 
-
 .firstpage {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  height: 900px;
+  margin-left: 42px;
+  margin-right: 42px;
+}
+
+.sdc_img {
+  background-image: url(./MAIN.png);
+  background-size: cover;
+  height: 545px;
+  width: 760px;
+  margin-top: 48px;
+  animation: leftSideAni 1s ease forwards;
+  animation-delay: 1s;
+}
+.firstpage_left {
+  width: 763px;
+  height: auto;
+}
+.firstpage_right {
+  width: 677px;
+  height: auto;
+}
+.left_main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 176px;
+  margin-left: 67px;
+  font-size: 31px;
+  font-weight: 900;
+  animation: navani 0.3s ease forwards;
+}
+.left_main h1 {
+    animation: navani 0.3s ease forwards;
+  font-weight: bolder;
+}
+.buttons input{
+  padding: 12px 1.2rem 12px 1.2rem;
+  position: relative;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  min-width: 8rem;
+  background-color: #9249bb;
+  color: white;
+  font-weight: 900;
+  font-size: 15px;
+  justify-content: center;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: bottom;
+  white-space: nowrap;
 }
