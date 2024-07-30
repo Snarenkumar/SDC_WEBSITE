@@ -1,3 +1,115 @@
 * {
-  background-color: black;
+  /* background-color: black; */
+}
+.navbar {
+  height: 70px;
+  width: 1500px;
+
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  text-align: center;
+
+  justify-content: space-evenly;
+}
+
+.logo {
+  background-image: url("./LOGO.png");
+  background-size: cover;
+  width: 84px;
+  height: 77px;
+  position: relative;
+  bottom: 11px;
+}
+
+
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 1000px;
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: black;
+
+  padding-right: 50px;
+}
+
+.list {
+  padding-right: 50px;
+}
+
+.dropdown ul {
+  list-style-position: outside;
+
+  list-style-type: none;
+}
+
+.dropdown li {
+  float: left;
+  margin-right: 50px;
+}
+
+.search {
+  position: relative;
+  right: 354px;
+  top: 8px;
+}
+
+input[type="text"] {
+  width: 252px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 24px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("./actual_images/search.png");
+  background-position: 14px 7px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 68px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  position: fixed;
+  font-weight: 592;
+}
+
+.login {
+  position: relative;
+  right: 66px;
+  top: 11px;
+}
+
+.login button {
+  padding: 12px 1.2rem 12px 1.2rem;
+  position: relative;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  min-width: 8rem;
+  background-color: #2d3093;
+  color: white;
+  font-weight: 900;
+  font-size: 15px;
+  justify-content: center;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: bottom;
+  white-space: nowrap;
+}
+
+.nightmode {
+  background-image: url(./actual_images/moo_nobg.png);
+  image-resolution: initial;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: 0px;
+  position: relative;
+  right: 40px;
+  top: 4px;
 }
