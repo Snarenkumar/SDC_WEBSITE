@@ -6,7 +6,7 @@
   padding-top: 20px;
   display: flex;
   flex-direction: row;
-  padding-left: 50px;
+  padding-left: 25px;
   text-align: center;
 
   justify-content: space-evenly;
@@ -120,4 +120,9 @@
   background-color: transparent;
   border: 0px;
   
+}
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
