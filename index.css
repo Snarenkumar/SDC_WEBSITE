@@ -117,11 +117,11 @@
   background-color: transparent;
   border: 0px;
 }
-html,
-body {
-  width: 100%;
-  overflow-x: hidden;
-}
+/* html, */
+/* body { */
+  /* width: 100%; */
+  /* overflow-x: hidden; */
+/* } */
 
 .firstpage {
   display: flex;
